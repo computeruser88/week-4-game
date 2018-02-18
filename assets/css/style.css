@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/circles-light.png") repeat;
+    color: #777777;
+}
+header  {
+    font-family: 'Times New Roman', Times, serif;
+    width: 640px;
+    font-size: 50px;
+    background: #eeeeee;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+article {
+    width: 640px;
+    background: #eeeeee;
+    padding: 20px; 
+    margin: 20px;
+}
+article p {
+    position: relative;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0;
+}
+aside {
+    position: relative;
+    width: 800px;
+    margin: 20px;
+}
+aside img {
+    width: 150px;
+    margin: 0;
+}
+#target-random-number {
+    background: #eeeeee;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0px;  
+    font-size: 36px;    
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+}
+#score {
+    background: #eeeeee;
+    width: 160px;
+    height: 110px;
+    margin: 20px 20px 20px 0;
+    padding: 20px;
+    float: left;
+}
+
+#score {
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+#total-score {
+    font-size: 36px;
+    padding: 0;
+    text-align: center;
+}
+#wins-and-losses {
+    font-size: 18px;
+    background: #eeeeee;
+    width: 160px;
+    height: 110px;
+    float: left;
+    margin: 20px;
+    padding: 20px 20px 20px 10px;
+}
