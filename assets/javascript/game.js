@@ -17,6 +17,8 @@ $(document).ready(function () {
         $("#total-score").text(totalScore);
     }
 
+    initialize();
+
     $("aside").on("click", "#amethyst", function () {
         totalScore += crystals[0];
         $("#total-score").text(totalScore);
@@ -52,6 +54,6 @@ $(document).ready(function () {
         }
     }
 
-    initialize();
+
 
 });
