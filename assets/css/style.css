@@ -78,10 +78,10 @@ aside img {
 }
 @media all and (max-width: 640px) {
     body {
-        width: 640px;
+        max-width: 640px;   
     }
     aside {
-        width: 640px;
+        max-width: 640px;
     }
     aside img {
     }
