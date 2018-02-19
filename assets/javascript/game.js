@@ -15,6 +15,8 @@ $(document).ready(function () {
         $("#target-random-number").text(randomTargetNumber);
         totalScore = 0;
         $("#total-score").text(totalScore);
+        $("#wins").text(wins);
+        $("#losses").text(losses);
     }
 
     initialize();
