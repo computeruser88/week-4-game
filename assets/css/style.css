@@ -76,3 +76,28 @@ aside img {
     margin: 20px;
     padding: 20px 20px 20px 10px;
 }
+@media all and (max-width: 640px) {
+    body {
+        width: 640px;
+    }
+    aside {
+        width: 640px;
+    }
+    aside img {
+    }
+    #target-random-number {
+    
+    }
+    #score {
+   
+    }
+    
+    #score {
+  
+    }
+    #total-score {
+
+    }
+    #wins-and-losses {
+    }
+}
