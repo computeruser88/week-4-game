@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     function initialize() {
         for (var i = 0; i < crystals.length; i++) {
-            crystals[i] = Math.floor(Math.random() * 11) + 1;
+            crystals[i] = Math.floor(Math.random() * 12) + 1;
             console.log("Crystal " + crystals[i]);
         }
         randomTargetNumber = Math.floor(Math.random() * 102) + 19;
