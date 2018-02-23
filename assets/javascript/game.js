@@ -10,7 +10,7 @@ $(document).ready(function () {
             crystals[i] = Math.floor(Math.random() * 11) + 1;
             console.log("Crystal " + crystals[i]);
         }
-        randomTargetNumber = Math.floor(Math.random() * 111) + 19;
+        randomTargetNumber = Math.floor(Math.random() * 111) + 20;
         console.log("randomTargetNumber " + randomTargetNumber);
         $("#target-random-number").text(randomTargetNumber);
         totalScore = 0;
